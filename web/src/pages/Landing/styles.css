@@ -1,0 +1,42 @@
+#page-landing {
+  /* Ocupa toda a largura e altura da tela */
+  width: 100vw;
+  height: 100vh;
+
+  /* Alinha todo o conteúdo da página ao centro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-text-in-primary);
+  background: var(--color-primary);
+}
+
+/* A imagem dentro de logo-container terá a altura de 10rem*/
+.logo-container img {
+  height: 10rem;
+}
+
+/*
+  Imagem maior da landing page.
+  Ao setar um width de 100%, faz com que a largura da imagem
+  não sobressaia gerando uma barra de rolagem. Com isso a imagem se aplica a 100% da tela
+*/
+.hero-image {
+  width: 100%;
+}
+
+/* Centraliza a logo */
+.logo-container {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+/* Estiliza o sub título "Sua Plataforma de Estudos Online"*/
+.logo-container h2 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 4.6rem;
+  margin-top: 0.8rem;
+}
+
