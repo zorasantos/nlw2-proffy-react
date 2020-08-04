@@ -13,7 +13,7 @@ import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 function Landing() {
   return (
     <div id="page-landing">
-      <div id="page-landing-container" className="container">
+      <div id="page-landing-content" className="container">
         <div className="logo-container">
           <img src={logoImg} alt="Logo Proffy" />
           <h2>Sua Plataforma de Estudos Online</h2>
